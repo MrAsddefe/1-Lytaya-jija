@@ -64,7 +64,7 @@ namespace _1_Lytaya_jija
             this.labelP1.Size = new System.Drawing.Size(29, 21);
             this.labelP1.TabIndex = 0;
             this.labelP1.Tag = "p1";
-            this.labelP1.Text = "p1";
+            this.labelP1.Text = "&p1";
             // 
             // label4
             // 
@@ -180,7 +180,7 @@ namespace _1_Lytaya_jija
         private System.Windows.Forms.TextBox textBoxN1;
         private System.Windows.Forms.TextBox textBoxP2;
         private System.Windows.Forms.Label label5;
-        public System.Windows.Forms.Label labelP2;
+        private System.Windows.Forms.Label labelP2;
     }
 }
 
