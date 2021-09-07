@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>_1_Lytaya_jija</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Основка.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
