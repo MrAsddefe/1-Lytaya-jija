@@ -30,39 +30,39 @@ namespace _1_Lytaya_jija
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelN1 = new System.Windows.Forms.Label();
+            this.labelP1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxP1 = new System.Windows.Forms.TextBox();
             this.textBoxAnsw = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxN1 = new System.Windows.Forms.TextBox();
+            this.labelP2 = new System.Windows.Forms.Label();
+            this.textBoxP2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // labelN1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(233, 113);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "&n1";
+            this.labelN1.AutoSize = true;
+            this.labelN1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelN1.Location = new System.Drawing.Point(232, 110);
+            this.labelN1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelN1.Name = "labelN1";
+            this.labelN1.Size = new System.Drawing.Size(28, 21);
+            this.labelN1.TabIndex = 0;
+            this.labelN1.Text = "&n1";
             // 
-            // label2
+            // labelP1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(79, 110);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 21);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "&p1";
+            this.labelP1.AutoSize = true;
+            this.labelP1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelP1.Location = new System.Drawing.Point(79, 110);
+            this.labelP1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelP1.Name = "labelP1";
+            this.labelP1.Size = new System.Drawing.Size(29, 21);
+            this.labelP1.TabIndex = 0;
+            this.labelP1.Text = "&p1";
             // 
             // label4
             // 
@@ -82,16 +82,17 @@ namespace _1_Lytaya_jija
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 49);
-            this.button1.TabIndex = 10;
+            this.button1.TabIndex = 4;
             this.button1.Text = "Делать магию & ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // textBoxP1
             // 
-            this.textBox2.Location = new System.Drawing.Point(115, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 29);
-            this.textBox2.TabIndex = 1;
+            this.textBoxP1.Location = new System.Drawing.Point(115, 107);
+            this.textBoxP1.Name = "textBoxP1";
+            this.textBoxP1.Size = new System.Drawing.Size(100, 29);
+            this.textBoxP1.TabIndex = 1;
             // 
             // textBoxAnsw
             // 
@@ -105,30 +106,30 @@ namespace _1_Lytaya_jija
             this.textBoxAnsw.TabStop = false;
             this.textBoxAnsw.Text = "Ответ будет тут";
             // 
-            // textBox1
+            // textBoxN1
             // 
-            this.textBox1.Location = new System.Drawing.Point(268, 110);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 29);
-            this.textBox1.TabIndex = 5;
+            this.textBoxN1.Location = new System.Drawing.Point(267, 102);
+            this.textBoxN1.Name = "textBoxN1";
+            this.textBoxN1.Size = new System.Drawing.Size(100, 29);
+            this.textBoxN1.TabIndex = 3;
             // 
-            // label3
+            // labelP2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(79, 155);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 21);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "&p2";
+            this.labelP2.AutoSize = true;
+            this.labelP2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelP2.Location = new System.Drawing.Point(79, 155);
+            this.labelP2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelP2.Name = "labelP2";
+            this.labelP2.Size = new System.Drawing.Size(29, 21);
+            this.labelP2.TabIndex = 0;
+            this.labelP2.Text = "p2";
             // 
-            // textBox3
+            // textBoxP2
             // 
-            this.textBox3.Location = new System.Drawing.Point(115, 152);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 29);
-            this.textBox3.TabIndex = 3;
+            this.textBoxP2.Location = new System.Drawing.Point(115, 152);
+            this.textBoxP2.Name = "textBoxP2";
+            this.textBoxP2.Size = new System.Drawing.Size(100, 29);
+            this.textBoxP2.TabIndex = 2;
             // 
             // label5
             // 
@@ -146,15 +147,15 @@ namespace _1_Lytaya_jija
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(708, 225);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxN1);
             this.Controls.Add(this.textBoxAnsw);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBoxP2);
+            this.Controls.Add(this.textBoxP1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelP2);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelP1);
+            this.Controls.Add(this.labelN1);
             this.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
@@ -166,15 +167,15 @@ namespace _1_Lytaya_jija
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelN1;
+        private System.Windows.Forms.Label labelP1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxP1;
         private System.Windows.Forms.TextBox textBoxAnsw;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxN1;
+        private System.Windows.Forms.Label labelP2;
+        private System.Windows.Forms.TextBox textBoxP2;
         private System.Windows.Forms.Label label5;
     }
 }
