@@ -46,23 +46,25 @@ namespace _1_Lytaya_jija
             // 
             this.labelN1.AutoSize = true;
             this.labelN1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelN1.Location = new System.Drawing.Point(232, 110);
+            this.labelN1.Location = new System.Drawing.Point(208, 110);
             this.labelN1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelN1.Name = "labelN1";
             this.labelN1.Size = new System.Drawing.Size(28, 21);
             this.labelN1.TabIndex = 0;
-            this.labelN1.Text = "&n1";
+            this.labelN1.Tag = "n1";
+            this.labelN1.Text = "n1";
             // 
             // labelP1
             // 
             this.labelP1.AutoSize = true;
             this.labelP1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelP1.Location = new System.Drawing.Point(79, 110);
+            this.labelP1.Location = new System.Drawing.Point(43, 110);
             this.labelP1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelP1.Name = "labelP1";
             this.labelP1.Size = new System.Drawing.Size(29, 21);
             this.labelP1.TabIndex = 0;
-            this.labelP1.Text = "&p1";
+            this.labelP1.Tag = "p1";
+            this.labelP1.Text = "p1";
             // 
             // label4
             // 
@@ -83,41 +85,43 @@ namespace _1_Lytaya_jija
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 49);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Делать магию & ";
+            this.button1.Text = "Делать& магию ";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBoxP1
             // 
-            this.textBoxP1.Location = new System.Drawing.Point(115, 107);
+            this.textBoxP1.Location = new System.Drawing.Point(79, 107);
             this.textBoxP1.Name = "textBoxP1";
             this.textBoxP1.Size = new System.Drawing.Size(100, 29);
             this.textBoxP1.TabIndex = 1;
+            this.textBoxP1.Tag = "p1";
             // 
             // textBoxAnsw
             // 
             this.textBoxAnsw.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBoxAnsw.Location = new System.Drawing.Point(469, 110);
+            this.textBoxAnsw.Location = new System.Drawing.Point(459, 110);
             this.textBoxAnsw.Name = "textBoxAnsw";
             this.textBoxAnsw.ReadOnly = true;
             this.textBoxAnsw.ShortcutsEnabled = false;
-            this.textBoxAnsw.Size = new System.Drawing.Size(132, 29);
+            this.textBoxAnsw.Size = new System.Drawing.Size(142, 29);
             this.textBoxAnsw.TabIndex = 0;
             this.textBoxAnsw.TabStop = false;
             this.textBoxAnsw.Text = "Ответ будет тут";
             // 
             // textBoxN1
             // 
-            this.textBoxN1.Location = new System.Drawing.Point(267, 102);
+            this.textBoxN1.Location = new System.Drawing.Point(243, 107);
             this.textBoxN1.Name = "textBoxN1";
             this.textBoxN1.Size = new System.Drawing.Size(100, 29);
             this.textBoxN1.TabIndex = 3;
+            this.textBoxN1.Tag = "n1";
             // 
             // labelP2
             // 
             this.labelP2.AutoSize = true;
             this.labelP2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelP2.Location = new System.Drawing.Point(79, 155);
+            this.labelP2.Location = new System.Drawing.Point(43, 160);
             this.labelP2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelP2.Name = "labelP2";
             this.labelP2.Size = new System.Drawing.Size(29, 21);
@@ -126,7 +130,7 @@ namespace _1_Lytaya_jija
             // 
             // textBoxP2
             // 
-            this.textBoxP2.Location = new System.Drawing.Point(115, 152);
+            this.textBoxP2.Location = new System.Drawing.Point(79, 157);
             this.textBoxP2.Name = "textBoxP2";
             this.textBoxP2.Size = new System.Drawing.Size(100, 29);
             this.textBoxP2.TabIndex = 2;
@@ -174,9 +178,9 @@ namespace _1_Lytaya_jija
         private System.Windows.Forms.TextBox textBoxP1;
         private System.Windows.Forms.TextBox textBoxAnsw;
         private System.Windows.Forms.TextBox textBoxN1;
-        private System.Windows.Forms.Label labelP2;
         private System.Windows.Forms.TextBox textBoxP2;
         private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.Label labelP2;
     }
 }
 
